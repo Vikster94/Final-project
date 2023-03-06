@@ -1,0 +1,124 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+header {
+	background-color: rgb(173, 193, 230);
+	color:black;
+	font-family: 'Times New Roman', Times, serif;
+	padding: 20px;
+	font-size: larger
+}
+
+/* header img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px; 
+} */
+
+.Purpose {
+	border: 1px solid black;
+}
+
+.logo{
+	justify-content: left;
+	width: 10%;
+	height: 10%; 
+	display: inline-block;
+}
+
+.Header-Nav{
+	background-image: url(https://raw.githubusercontent.com/HaloCustomEdition/Halo/master/page/halo_banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+main {
+	margin: 20px;
+}
+
+article {
+	margin-bottom: 40px;
+}
+
+article header {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+
+article h2 {
+	font-size: 24px }
+
+.Freaured {
+	border: 1px solid black;
+}
+
+.art-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+	border: 1px solid black;
+	
+      }
+      
+.art-piece {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+      }
+
+      
+.art-piece img {
+    display: block;
+    width: 100%;
+    height: auto;
+      }
+
+footer {
+	background-image: url(https://github.com/Vikster94/images-folder/blob/main/images/halo-infinite-v1-618415.jpg?raw=true);
+    background-size: cover;
+    background-position: center;
+	height:100px
+	
+}
+.footer-text {
+	color: whitesmoke;
+	background-color: rgba(240, 255, 255, 0.517);
+	font-size: 30px;
+	font-family: 'Times New Roman', Times, serif;
+	justify-content: center;
+	padding-left: 20%;
+}
+.footer-text-2{
+	color: whitesmoke;
+	background-color:rgba(240, 255, 255, 0.517);
+	font-size: 30px;
+	font-family: 'Times New Roman', Times, serif;
+	justify-content: center;
+	padding-left: 25%;
+
+}

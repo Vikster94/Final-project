@@ -11,6 +11,10 @@ body {
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
+.Nav{
+	font-size: larger;
+}
+
 .Header-Nav{
 	background-image: url(https://raw.githubusercontent.com/HaloCustomEdition/Halo/master/page/halo_banner.jpg);
     background-size: cover;
@@ -24,8 +28,9 @@ h1 {
 
 .DuelHalo {
     text-align: left;
-    color: whitesmoke;
+    color: black;
     font-family: 'Times New Roman', Times, serif;
+	font-size: 40px
 }
 
 form {
@@ -45,7 +50,7 @@ textarea {
 	margin-bottom: 20px;
 	border: none;
 	border-radius: 5px;
-	background-color: #f2f2f2;
+	background-color: lightblue;
 	font-size: 16px;
 	color: #333;
 }
@@ -59,6 +64,7 @@ button[type="submit"] {
 	padding: 10px 20px;
 	border: none;
 	border-radius: 5px;
+	border-color: black;
 	background-color: #333;
 	color: #fff;
 	font-size: 16px;
@@ -69,3 +75,22 @@ button[type="submit"] {
 button[type="submit"]:hover {
 	background-color: #666;
 }
+
+.footer-text {
+	color: black;
+	background-color: rgba(240, 255, 255, 0.517);
+	display: flex;
+	font-size: 30px;
+	font-family: 'Times New Roman', Times, serif;
+	align-items: center;
+	padding-left: 20%;
+  }
+
+  footer {
+	background-image: url(https://github.com/Vikster94/images-folder/blob/main/images/halo-infinite-v1-618415.jpg?raw=true);
+    background-size: cover;
+    background-position: center;
+	height:120px
+  }
+ 
+	

@@ -32,12 +32,12 @@ header {
 	text-decoration: underline;
 }
 
-.logo{
+/* .logo{
 	justify-content: left;
 	width: 10%;
 	height: 10%; 
 	display: inline-block;
-}
+} */
 
 .Header-Nav{
 	background-image: url(https://raw.githubusercontent.com/HaloCustomEdition/Halo/master/page/halo_banner.jpg);

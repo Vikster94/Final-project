@@ -24,7 +24,10 @@
           font-family: 'Times New Roman', Times, serif;
 	        padding: 20px;
 	        font-size: larger
+      }
 
+      .mission{
+        text-decoration: underline;
       }
 
     ul {
@@ -83,6 +86,5 @@
       font-family: 'Times New Roman', Times, serif;
       align-items: center;
       padding-left: 20%;
-    
     }
       

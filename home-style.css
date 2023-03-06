@@ -13,6 +13,11 @@ header {
 	font-size: larger
 }
 
+.DH-Link {
+		color: black; 
+		border: 1px solid  rgb(56, 139, 187);
+	  }
+
 /* header img {
 	display: inline-block;
 	vertical-align: middle;
@@ -21,6 +26,10 @@ header {
 
 .Purpose {
 	border: 1px solid black;
+}
+
+.DH-Purpose {
+	text-decoration: underline;
 }
 
 .logo{
@@ -76,6 +85,11 @@ article h2 {
 .Freaured {
 	border: 1px solid black;
 }
+
+.Featured-Posts {
+	color: black; 
+	text-decoration: underline;
+	  }
 
 .art-grid {
     display: flex;
